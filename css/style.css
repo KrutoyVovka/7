@@ -388,7 +388,7 @@ header{
 	color: #D5D5D5;
 	padding: 0px 0px 0px 30px;
 	margin: 0px 0px 32px 0px;
-	background: url('../img/icons/impact-logo.png') 0 0 no-repeat;
+	background: url('../img/icons/impact-logo.png') 0 50% no-repeat;
 }
 .impact__subtitle {
 	max-width: 460px;
@@ -406,13 +406,15 @@ header{
 	display: inline-block;
 	width: 25%;
 	padding: 0px 24px 212px 0px;
+	vertical-align: top;
 }
 
 .impact-card_image {
 	display: inline-block;
-	/* max-height: 76px; */
+	max-width: 76px;
 	margin: 0px 11px 0px 0px;
-	vertical-align: middle;
+	/* vertical-align: middle; */
+	text-align: center;
 
 }
 .impact-card_image img {
