@@ -359,18 +359,25 @@ header{
 	margin: 0 auto;
 	max-width: 1060px;
 }
-.impact__header {
-	/* padding: 0px 20px;
-	margin: 0px 0px 85px 0px; */
-	margin: 0px 0px 70px 0px;
+.impact__image {
+	/* display: inline-block; */
+	/* max-width: 498px; */
+	/* margin: -270px 0px 0px 0px; */
+	text-align: right;
 }
-.impact__item {
+.impact__image img{
+	/* max-width: 498px; */
+	margin: -80px 0px 0px 0px;
+	/* vertical-align: bottom; */
+}
+.impact__header {
+	padding: 0px 20px;
+	margin: -180px 0px 75px 0px;
 	/* display: inline-block; */
 	/* max-width: 423px; */
-	padding: 190px 0 0 0;
-	/* margin-top: -80px; */
+	/* padding: 190px 0 0 0; */
 	/* background: url(../img/icons/impact-header.png) 0 0 no-repeat; */
-	vertical-align: middle;
+	/* vertical-align: middle; */
 }
 .impact__title {
 	font-weight: 700;
@@ -380,7 +387,7 @@ header{
 	text-transform: uppercase;
 	color: #D5D5D5;
 	padding: 0px 0px 0px 30px;
-	/* margin: 0px 0px 32px 0px;*/
+	margin: 0px 0px 32px 0px;
 	background: url('../img/icons/impact-logo.png') 0 0 no-repeat;
 }
 .impact__subtitle {
@@ -390,26 +397,33 @@ header{
 	line-height: 117%;
 	color: #FFFFFF;
 }
-.impact__image {
-	/* display: inline-block; */
-	/* max-width: 498px; */
-	margin: -270px 0px 0px 0px;
-	text-align: right;
+.impact__body {
+	font-size: 0;
 }
-.impact__image img{
-	/* max-width: 498px; */
-	/* margin: -80px 0px 0px 0px;
-	vertical-align: bottom; */
-}
-.impact__body {}
 .impact__card {}
 .impact-card {
 	/* background: url('../img/icons/car_1.png') 0 0 no-repeat; */
+	display: inline-block;
+	width: 25%;
+	padding: 0px 24px 212px 0px;
+}
+
+.impact-card_image {
+	display: inline-block;
+	/* max-height: 76px; */
+	margin: 0px 11px 0px 0px;
+	vertical-align: middle;
+
+}
+.impact-card_image img {
+
 }
 .impact-card__text {
-	min-height: 76px;
-padding: 0px 0px 0px 83px;
-margin: auto 0;
+	display: inline-block;
+	/* padding: 0px 0px 0px 83px; */
+	/* margin: auto 0; */
+	vertical-align: top;
+	max-width: 150px;
 }
 .impact-card__title {
 	font-weight: 900;
@@ -417,12 +431,13 @@ margin: auto 0;
 	line-height: 42px;
 	/* identical to box height, or 117% */
 	 color: #C40B0B;
+	 margin: 0px 0px 3px 0px;
 }
 .impact-card__desk {
-	/* font-weight: 400;
+	font-weight: 400;
 	font-size: 16px;
-	line-height: 24px; */
+	line-height: 24px;
 	/* or 150% */
-	/* letter-spacing: 0.15px;
-	color: #F5F5F5; */
+	letter-spacing: 0.15px;
+	color: #F5F5F5;
 }
