@@ -386,9 +386,10 @@ header{
 	letter-spacing: 2.5px;
 	text-transform: uppercase;
 	color: #D5D5D5;
-	padding: 0px 0px 0px 30px;
+	padding: 2px 0px 0px 30px;
 	margin: 0px 0px 32px 0px;
-	background: url('../img/icons/impact-logo.png') 0 50% no-repeat;
+	background: url('../img/icons/impact-logo.png') 0 0 no-repeat;
+	min-height: 27px;
 }
 .impact__subtitle {
 	max-width: 460px;
