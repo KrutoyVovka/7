@@ -329,17 +329,18 @@ header{
 	padding: 280px 0px 48px 0px;
 }
 .car-body__button {
-	background: url('../img/car-button.png') right 0 no-repeat;
+	background: rgb(97, 9, 9) url('../img/car-button.png') right no-repeat;
 	display: inline-block;
 	font-weight: bold;
 	font-size: 12px;
-	line-height: 400%;
 	letter-spacing: 0.15px;
 	text-transform: uppercase;
 	color: #FFFFFF;
-	width: 211px;
-	height: 48px;
-	background-color:rgb(97, 9, 9);
+	/* line-height: 400%; */ /* меняем все на паддинг */
+	/* width: 211px;
+	height: 48px; */
+	padding: 17px 50px 17px 20px;
+	/* background-color:rgb(97, 9, 9); */
 
 }
 .car-body__button span {
